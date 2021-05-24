@@ -94,7 +94,7 @@ class ControlElement extends Component {
                 <AppItems 
                     items={this.state.items}
                     search={this.state.search}
-                    deleteItem={this.state.deleteItem}
+                    deleteItem={this.deleteItem}
                 />
                 <button className="clear" onClick={this.clear}>Clear the List</button>
                 <button className="reset" onClick={this.reset}>Reset the List</button>

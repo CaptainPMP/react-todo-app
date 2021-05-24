@@ -32,7 +32,7 @@ class AppItems extends Component {
                     <td className="taskNumber">Task {index+1}</td>
                     <td className="taskItem" key={index}>{item}</td>
                     <td>
-                        <button className="remove" onClick={this.props.deleteItem.bind(this,index)}>X</button>
+                        <button className="remove" onClick={this.props.deleteItem.bind(this, index)}>X</button>
                     </td>
                 </tr>
             )
